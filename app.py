@@ -4,6 +4,7 @@ from AIModels import getAI
 def main():
 
     st.title("AI-Powered Cover Letter Generator")
+    st.write("Made with ❤️ by Amogh Mahadev kokari ©️ 2025 _||_ [linkedin](https://www.linkedin.com/in/amoghkokari/) _||_ [Portfolio](https://amoghkokari.github.io/portfolio.pdf) _||_ [Github](https://github.com/amoghkokari)")
     
     # AI Model Selection
     st.write("OpenAI GPT-3 coming soon !")
@@ -34,6 +35,8 @@ def main():
 
             except Exception as error:
                 st.write("Please check your Api key, probable issue", SystemExit(error))
+    
+    st.write("Made with ❤️ by Amogh Mahadev kokari ©️ 2025 _||_ [linkedin](https://www.linkedin.com/in/amoghkokari/) _||_ [Portfolio](https://amoghkokari.github.io/portfolio.pdf) _||_ [Github](https://github.com/amoghkokari)")
 
 if __name__ == "__main__":
     main()
