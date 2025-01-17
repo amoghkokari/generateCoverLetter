@@ -6,9 +6,16 @@ def main():
     st.title("AI-Powered Cover Letter Generator")
     st.write("Made with ❤️ by Amogh Mahadev kokari ©️ 2025 _||_ [linkedin](https://www.linkedin.com/in/amoghkokari/) _||_ [Portfolio](https://amoghkokari.github.io/portfolio.pdf) _||_ [Github](https://github.com/amoghkokari)")
     
+    model_link = {
+        "Google Gemini": "https://makersuite.google.com/app/apikey",
+        "Gorq": "https://console.groq.com/keys"
+    }
+
     # AI Model Selection
     st.write("OpenAI GPT-3 coming soon !")
     ai_model = st.selectbox("Select AI Model", ["Google Gemini", "Gorq"])
+
+    st.link_button("Click for API KEY (select create api key in new project)", model_link[ai_model], type="secondary")
     
     # API Key Input
     api_key = st.text_input(f"Enter {ai_model} API Key", type="password")
