@@ -1,3 +1,6 @@
+"""
+File contains different function for building tuned propts
+"""
 
 def build_prompt_for_google(resume, cover_letter_template, job_description):
 

@@ -1,3 +1,7 @@
+"""
+File contains different function for executing ai response based on inputs
+"""
+
 import google.generativeai as genai
 from Prompts import build_prompt_for_google
 from streamlit import secrets

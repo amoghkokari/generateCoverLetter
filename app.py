@@ -1,3 +1,7 @@
+"""
+Main file contains execution flow to the entire process
+"""
+
 import streamlit as st
 from AIModels import getAI
 
