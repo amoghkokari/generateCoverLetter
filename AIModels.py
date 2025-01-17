@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from Prompts import build_prompt_for_google, build_prompt_for_gorq
+from Prompts import build_prompt_for_google
 from streamlit import secrets
 from groq import Groq
 
